@@ -32,7 +32,7 @@ const Contact = () => {
       console.log("Form Submitted", formData);
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
-      setSuccessMsg('Message sent successfully!');
+      setSuccessMsg('Form Submitted');
 
       // Hide message after 3 seconds
       setTimeout(() => {
@@ -84,7 +84,7 @@ const Contact = () => {
               {errors.message && <span className="error">{errors.message}</span>}
 
               <button type="submit">
-                Send <i className="fas fa-paper-plane"></i>
+                Submit 
               </button>
 
               {successMsg && <p className="success">{successMsg}</p>}

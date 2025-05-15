@@ -1,8 +1,8 @@
 .projects-section {
   padding: 90px;
-  background-color: #f2f2f2;
+  background-color: #d0cece;
   text-align: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .projects-section h2 {
@@ -14,7 +14,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
-  align-items: flex-start; /* 🔑 Don't stretch all cards equally */
+  align-items: flex-start; 
   margin-top: -70px;
 }
 
@@ -29,6 +29,8 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
+  height: 280px; 
+  justify-content: space-between; 
 }
 
 .project-card:hover {
@@ -40,7 +42,14 @@
   margin: 10px 0;
   color: #0366d6;
   text-decoration: none;
+  min-height: 24px; 
+  visibility: visible;
 }
+
+.project-card .github-link:empty {
+  visibility: hidden;
+}
+
 
 .github-link:hover {
   text-decoration: underline;
@@ -63,4 +72,13 @@
 .description {
   margin-top: 10px;
   color: #333;
+}
+
+.github-link-container {
+  min-height: 24px; /* Reserve space so cards are uniform */
+  margin: 10px 0;
+}
+
+.empty-github-link-space {
+  height: 24px; /* Same height as GitHub link */
 }

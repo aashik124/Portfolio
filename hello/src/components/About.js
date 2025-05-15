@@ -20,7 +20,7 @@ const About = () => {
           <h3>I'm Aashik</h3>
           <h4>Front-End Developer</h4>
           <p>
-            I am a Front-End developer based in Kathmandu, Nepal. I am currently studying engineering and passionate about improving my coding skills, building responsive websites, and learning new technologies. I love creating clean UI and exploring design patterns.
+            I am a Front-End developer living in Kathmandu, Nepal. I am currently studying engineering in IT and passionate about improving my coding skills, building responsive websites and learning new technologies. I love creating clean UI and exploring design patterns. 
           </p>
           <p>
             <strong>Email:</strong> <a href="mailto:aashik@example.com">aashiqpoudel124@gmail.com</a>
