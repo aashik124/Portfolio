@@ -1,0 +1,112 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.App {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Ensure headings, paragraphs, links adapt */
+.App.dark h1,
+.App.dark h2,
+.App.dark h3,
+.App.dark p,
+.App.dark a {
+  color: #f5f5f5;
+}
+
+/* Optional: Override component-specific sections */
+.section {
+  padding: 50px 20px;
+}
+
+.App.dark .section {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+
+/* ========== Responsive Design: Laptop to Mobile ========== */
+
+/* Tablets and smaller laptops (max width: 1024px) */
+@media (max-width: 1024px) {
+  .section {
+    padding: 40px 16px;
+  }
+
+  .App.dark .section {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets and large phones (max width: 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 30px 12px;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile phones (max width: 480px) */
+@media (max-width: 480px) {
+  .section {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  nav, footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,120 @@
+/* src/components/About.css */
+
+.about-section {
+  padding: 40px;
+  background-color:  #f0e6e6;
+  color: #222;
+  height: 90vh;
+}
+
+.about-header {
+  justify-content: center;
+  margin-bottom: 50px;
+  color: black;
+  margin-top: 70px;
+  font-size: 35px;
+  display: flex;
+  gap: 8px; 
+  
+}
+
+.about-icon {
+  font-size: 40px;
+  color: black;
+}
+
+.about-header h2 {
+  font-size: 36px;
+  color: #002244;
+}
+
+.about-header h2 span {
+  color: #ff8200;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.about-left img {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.about-left.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: fit-content;
+}
+
+.about-left.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.about-left.card img {
+  width: 240px;
+  height: 280px;
+  object-fit:fill;
+  background-color:  #f0e6e6;
+  
+}
+
+
+.about-right {
+  max-width: 600px;
+  text-align: start;
+  margin-left: 110px;
+  margin-right: -30px;
+  
+}
+
+.about-right h3 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.about-right h4 {
+  font-size: 22px;
+  color: #ff8200;
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-right strong {
+  color: #002244;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #2f2eff;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #1c1ce0;
+}
+

@@ -1,0 +1,120 @@
+.contact-section {
+  padding: 100px;
+  background: #f0e6e6;
+  color: black;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+.contact-header .contact-icon {
+  font-size: 40px;
+  color:black;
+}
+
+.contact-header h2 {
+  font-size: 35px;
+  margin-top: 10px;
+  color: #002244;
+}
+
+.contact-header h2 span {
+  color: black;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  background: 	rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 50%;
+  padding: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2f2eff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1f1fff;
+}
+
+.contact-right h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #002244;
+  text-align: center;
+}
+
+.contact-right p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-graphic {
+  text-align: center;
+  margin-top: 30px;
+  color: #2f2eff;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
