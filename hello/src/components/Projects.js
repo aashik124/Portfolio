@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Projects.css';
 
 const projects = [
@@ -34,7 +34,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects-section">
-      <h2><i class="fas fa-folder-open"></i>      My Projects</h2>
+      <h2><i className="fas fa-folder-open"></i>      My Projects</h2>
       <div className="project-list">
         {projects.map(project => (
           <div key={project.id} className="project-card">
