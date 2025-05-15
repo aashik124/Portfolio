@@ -1,7 +1,5 @@
-// src/components/About.js
-import React from 'react';
 import './About.css';
-import profileImg from '../assets/IMG_3465.jpg'; // Ensure the image path is correct
+import profileImg from '../assets/IMG_3465.jpg'; 
 
 const About = () => {
   return (
@@ -12,10 +10,12 @@ const About = () => {
         </div>
 
       <div className="about-container">
-        <div className="about-left card">
+        {/* Left side for card with photo */}
+        <div className="about-left card"> 
             <img src={profileImg} alt="Aashik" />
-        </div>
+        </div> 
 
+        {/* Right side with Description */}
         <div className="about-right">
           <h3>I'm Aashik</h3>
           <h4>Front-End Developer</h4>

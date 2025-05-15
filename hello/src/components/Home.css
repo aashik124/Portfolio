@@ -1,6 +1,6 @@
 .hero1 {
   height: 102vh;
-  background: linear-gradient(to right, #ffffff, rgb(140, 127, 127)); /* subtle background */
+  background: linear-gradient(to right, #ffffff, rgb(140, 127, 127)); 
   color: #002244;
   display: flex;
   justify-content: center;

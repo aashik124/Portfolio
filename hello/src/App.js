@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import './App.css';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -14,19 +14,16 @@ function App() {
 
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
-  
-
   return (
     <div className="App">
-
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero  />
-      <About  />
+      <Hero />
+      <About />
       <Education />
       <Skills />
-      <Projects  />
-      <Contact  />
-      <Footer  />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

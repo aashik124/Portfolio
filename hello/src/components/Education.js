@@ -1,8 +1,6 @@
-import React from 'react';
 import './Education.css';
 
-// Import the college photos
-import college1 from '../assets/image1.png';  // Ensure these paths are correct
+import college1 from '../assets/image1.png'; 
 import college2 from '../assets/image2.png';
 import School from '../assets/image.png';
 
