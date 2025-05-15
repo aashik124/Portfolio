@@ -16,7 +16,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <h3><li><a href="#contact">Contact</a></li></h3>
       </ul>
       <button className="toggle-btn" onClick={toggleDarkMode}>
-        {darkMode ? '🌞' : '🌙'}
+        {darkMode ? '🌞' : '🌙'}{/* Day and Night icons*/}
       </button>
     </nav>
   );

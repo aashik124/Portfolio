@@ -34,7 +34,6 @@ body {
   color: #f5f5f5;
 }
 
-/* ========== Responsive Design: Laptop to Mobile ========== */
 
 /* Tablets and smaller laptops (max width: 1024px) */
 @media (max-width: 1024px) {

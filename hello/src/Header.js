@@ -1,5 +1,3 @@
-// src/components/Header.js
-import React from "react";
 import DarkModeToggle from "./DarkModeToggle";
 
 const Header = () => {
