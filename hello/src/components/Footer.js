@@ -19,7 +19,6 @@ const Footer = () => {
             <li> <a href="#home" className="a">- Home</a></li>
             <li> <a href="#about" className="a">- About</a></li>
             <li> <a href="#education" className="a">- Education</a></li>
-            <li> <a href="#skills" className="a">- Skills</a></li>
             <li> <a href="#projects" className="a">- Projects</a></li>
             <li> <a href="#contact" className="a">- Contact</a></li>
             
